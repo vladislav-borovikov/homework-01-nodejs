@@ -35,9 +35,6 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 
     case "remove":
       const removeById = await productOperation.removeContact(id);
-      if (removeById === null) {
-        return console.log(`ID ${id} not faund`);
-      }
       console.log(`Contact with Id ${id} has been removed`);
       break;
 
