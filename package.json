@@ -1,0 +1,30 @@
+{
+  "name": "homework-01-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "index": "^0.4.0",
+    "nanoid": "^3.3.4",
+    "step": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladislav-borovikov/homework-01-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladislav-borovikov/homework-01-nodejs/issues"
+  },
+  "homepage": "https://github.com/vladislav-borovikov/homework-01-nodejs#readme"
+}
